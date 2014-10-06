@@ -3,7 +3,7 @@
     id="com.wizital_fork.plugins.backgroundlocationenabler"
     version="1.0.3">
 
-    <name>BackgroundLocationEnabler</name>
+    <name>BackgroundLocationEnablerUnlimited</name>
     <description>A simple Phonegap Plugin to enable background location update on iOS. Updated with unlimited functionality.</description>
     <license>MIT</license>
 
