@@ -60,7 +60,6 @@ p
         // TODO: Set distance filter to 10 meters? and desired accuracy to nearest ten meters? arbitrary.
         self.locationManager.distanceFilter = 10;
         self.locationManager.desiredAccuracy = kCLLocationAccuracyKilometer;
-        self.locationManager.pausesLocationUpdatesAutomatically = NO;
     }
 }
 
