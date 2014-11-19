@@ -34,7 +34,10 @@
         </config-file>
         
         <header-file src="src/ios/CDVBackgroundLocationEnabler.h" />
-        <source-file src="src/ios/CDVBackgroundLocationEnabler.m" />    
+        <header-file src="src/ios/CDVLocation+Unlimited.h" />
+        
+        <source-file src="src/ios/CDVBackgroundLocationEnabler.m" />
+        <source-file src="src/ios/CDVLocation+Unlimited.m" /> 
     </platform>
 
     
