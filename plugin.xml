@@ -11,10 +11,6 @@
         <engine name="cordova" version=">=3.0.0" />
     </engines>    
 
-    <js-module src="www/backgroundLocationEnabler.js" name="backgroundlocationenabler">
-            <clobbers target="window.BackgroundLocationEnabler" />
-    </js-module>
-
     <dependency id="org.apache.cordova.geolocation" url="https://github.com/apache/cordova-plugin-geolocation" />
     
     <!-- ios -->
@@ -33,11 +29,8 @@
         
         </config-file>
         
-        <header-file src="src/ios/CDVBackgroundLocationEnabler.h" />
         <header-file src="src/ios/CDVLocation+Unlimited.h" />
-        
-        <source-file src="src/ios/CDVBackgroundLocationEnabler.m" />
-        <source-file src="src/ios/CDVLocation+Unlimited.m" /> 
+        <source-file src="src/ios/CDVLocation+Unlimited.m" />
     </platform>
 
     
