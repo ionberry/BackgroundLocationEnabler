@@ -1,7 +1,7 @@
 #import "CDVLocation+Unlimited.h"
 #import <objc/runtime.h>
 
-@implmentation CDVLocation(Unlimited)
+@implementation CDVLocation(Unlimited)
 
 - (void)unlimited_startLocation:(BOOL)enableHighAccuracy
 {
