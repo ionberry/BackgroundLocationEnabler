@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.unlimited.plugins.backgroundlocationenablerunlimited-ios9-fix"
-    version="1.0.5">
+    version="1.0.6">
 
     <name>BackgroundLocationEnablerUnlimited</name>
     <description>A simple Phonegap Plugin to enable background location update on iOS. Updated with unlimited functionality.</description>
