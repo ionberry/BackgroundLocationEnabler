@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.unlimited.plugins.backgroundlocationenablerunlimited"
+    id="com.unlimited.plugins.backgroundlocationenablerunlimited-ios9-fix"
     version="1.0.5">
 
     <name>BackgroundLocationEnablerUnlimited</name>
@@ -9,9 +9,7 @@
 
     <engines>
         <engine name="cordova" version=">=3.0.0" />
-    </engines>    
-
-    <dependency id="org.apache.cordova.geolocation" url="https://github.com/apache/cordova-plugin-geolocation" />
+    </engines>
     
     <!-- ios -->
     <platform name="ios">
