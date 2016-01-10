@@ -1,9 +1,7 @@
+#import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 #import <Cordova/CDVPlugin.h>
-#import <Cordova/CDVInvokedUrlCommand.h>
+#import <Foundation/Foundation.h>
 
-@interface CDVBackgroundLocationEnabler : CDVPlugin 
-
-- (void) enableUnlimited:(CDVInvokedUrlCommand*)command;
-
-
+@interface CDVLocation(Unlimited)
 @end
