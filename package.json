@@ -1,0 +1,20 @@
+{
+  "name": "com.unlimited.plugins.backgroundlocationenablerunlimited-ios9-fix",
+  "version": "1.0.5",
+  "description": "backgroundlocationenablerunlimited",
+  "cordova": {
+    "id": "com.unlimited.plugins.backgroundlocationenablerunlimited-ios9-fix",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ionberry/cordova-plugin-geolocation-ios9-fix"
+  },
+  "keywords": [
+    "geolocation"
+  ],
+  "author": "",
+  "license": ""
+}
