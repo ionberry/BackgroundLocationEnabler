@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.unlimited.plugins.backgroundlocationenablerunlimited-ios9-fix"
-    version="1.0.8">
+    version="1.0.9">
 
     <name>BackgroundLocationEnablerUnlimited</name>
     <description>A simple Phonegap Plugin to enable background location update on iOS. Updated with unlimited functionality.</description>
@@ -9,7 +10,11 @@
 
     <engines>
         <engine name="cordova" version=">=3.0.0" />
-    </engines>
+    </engines>    
+
+    <js-module src="www/backgroundLocationEnabler.js" name="backgroundlocationenabler">
+            <clobbers target="window.BackgroundLocationEnabler" />
+    </js-module>
     
     <!-- ios -->
     <platform name="ios">
@@ -27,8 +32,8 @@
         
         </config-file>
         
-        <header-file src="src/ios/CDVLocation+Unlimited.h" />
-        <source-file src="src/ios/CDVLocation+Unlimited.m" />
+        <header-file src="src/ios/CDVBackgroundLocationEnabler.h" />
+        <source-file src="src/ios/CDVBackgroundLocationEnabler.m" />    
     </platform>
 
     
